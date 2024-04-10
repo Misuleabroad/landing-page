@@ -6,15 +6,19 @@ header {
   background-color: #1f2937;
   margin: 0 0;
   padding: 15px 140px;
+  display: flex;
+  flex-direction: column;
 }
 
 .navbar {
   display: flex;
-  justify-content: space-between;
-  size: 24px;
+  justify-content: space-around;
+
   color: #f9faf9;
 }
 .left-links {
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .right-links {
@@ -32,9 +36,10 @@ a:hover {
 
 .header-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   margin-top: 20px;
+  padding: 15px 105px;
 }
 
 .header-text h1 {
@@ -45,6 +50,7 @@ a:hover {
 
 .header-text p {
   size: 18px;
+  font-size: 18px;
   color: #e5e7eb;
 }
 
@@ -83,7 +89,7 @@ img {
   display: flex;
   flex-direction: column;
 
-  padding: 15px 240px;
+  padding: 45px 240px;
   font-size: 26px;
   font-style: italic;
   font-weight: lighter;
