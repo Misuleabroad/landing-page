@@ -80,6 +80,8 @@ img {
 
 .middle-section {
   background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
 
   padding: 15px 240px;
   font-size: 26px;
@@ -87,6 +89,13 @@ img {
   font-weight: lighter;
   color: #1f2937;
   text-align: center;
+}
+
+.quote {
+  align-self: center;
+}
+.author {
+  align-self: flex-end;
 }
 
 .bottom-section {
